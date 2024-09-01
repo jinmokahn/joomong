@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 사람사는 지구 </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .contact, .projects, .blog {
+            margin-bottom: 20px;
+        }
+        .contact p, .projects p, .blog p {
+            margin: 5px 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> 사람사는 지구 </h1>
+        <p>안녕하세요! 저는 [안진목]입니다. 제 웹 페이지에 오신 것을 환영합니다.</p>
+    </header>
+
+    <div class="container">
+        <section class="contact">
+            <h2>연락처 정보</h2>
+            <p>s105752@hanmail.net</p>
+            <p>+821065908350</p>
+        </section>
+
+        <section class="projects">
+            <h2>프로젝트 목록</h2>
+            <ul>
+                <li>프로젝트 1: [Escaping Climate Crisis: 기후위기 탈출]</li>
+                <li>프로젝트 2: [Digital Currency: 디지털 화폐]</li>
+                <li>프로젝트 3: [Reading and Interpreting Demian: 데미안 읽고 해석하기]</li>
+                <!-- 추가적인 프로젝트를 여기에 추가하세요 -->
+            </ul>
+        </section>
+
+        <section class="blog">
+            <h2>블로그 포스트</h2>
+            <article>
+                <h3>블로그 포스트 제목 1</h3>
+                <p>[블로그 포스트 내용]</p>
+            </article>
+            <article>
+                <h3>블로그 포스트 제목 2</h3>
+                <p>[블로그 포스트 내용]</p>
+            </article>
+            <!-- 추가적인 블로그 포스트를 여기에 추가하세요 -->
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 [안영철]. 모든 권리 보유.</p>
+    </footer>
+</body>
+</html>
